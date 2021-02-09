@@ -5,6 +5,7 @@ const { expect } = require('chai');
 const urlBase = 'https://api.github.com';
 const githubUserName = 'CloaizaF';
 const repository = 'workshop-api-testing-js';
+
 describe('Github Api Test', () => {
   describe('Authentication', () => {
     it('Via OAuth2 Tokens by Header', async () => {
