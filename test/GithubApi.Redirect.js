@@ -21,7 +21,6 @@ describe('Consuming HEAD Mehtods', () => {
     it('The the page should redirect', async () => {
       const response = await agent.get('https://github.com/aperdomob/redirect-test');
       expect(response.status).to.equal(statusCode.OK);
-      // expect(oldResponse.headers.location).to.equal('https://github.com/aperdomob/new-redirect-test');
     });
   });
 });
